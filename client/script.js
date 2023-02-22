@@ -74,7 +74,7 @@ const handleSubmit = async (e) => {
   loader(messageDiv)
 
   //fetch response from server
-  const response = await fetch('https://askgpt-mkz1.onrender.com/', {
+  const response = await fetch('https://askgpt-mkz1.onrender.com', {
     method: 'POST', 
     headers: {
       'Content-Type': 'application/json'
