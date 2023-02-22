@@ -42,4 +42,4 @@ app.post('/', async (req, res) => {
     }
 })
 
-app.listen(5000, () => console.log('Server is Running on port http://localhost:5000'))
+app.listen(5000, () => console.log('Server is Running on port https://askgpt-mkz1.onrender.com/'))
